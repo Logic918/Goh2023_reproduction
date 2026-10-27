@@ -1,0 +1,30 @@
+# ---- 数据（体积大，不纳入版本控制）----
+fig2d/data/*
+!fig2d/data/README.md
+fig2d/data/adult_liver/
+*.h5ad
+*.h5
+*.mtx
+*.mtx.gz
+
+# ---- 中间产物 ----
+fig2d/results/*
+!fig2d/results/.gitkeep
+fig2d/figures/*
+!fig2d/figures/.gitkeep
+*.rds
+cache_*.rds
+
+# ---- 外部数据根目录（若放在仓库内）----
+C/
+data/processed/
+data_out/
+
+# ---- 编辑器 / 系统 ----
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata/
+*.swp
+.DS_Store
+Thumbs.db

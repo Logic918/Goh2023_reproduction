@@ -204,3 +204,29 @@ Rscript fig2d/scripts/12_plot_fig2d.R       # 第一版点图版式
 - Aizarani N, et al. *A human liver cell atlas reveals heterogeneity and epithelial progenitors.* Nature 2019. **GSE124395**
 - Stewart BJ, et al. *Single-cell transcriptomics of human fetal kidney.* Science 2019.
 - 其余数据集见上方表格中的 ArrayExpress 编号（E-MTAB-*）
+
+---
+
+## 10. 上传到 GitHub / Gitee
+
+本目录已经是初始化好的 git 仓库（含首次提交），直接添加远端并推送即可。
+
+**GitHub**
+
+```bash
+# 先在网页端创建一个空仓库（不要勾选 Initialize with README）
+git remote add origin https://github.com/<your-name>/Goh2023_Fig2D_reproduction.git
+git branch -M main
+git push -u origin main
+```
+
+**Gitee**
+
+```bash
+git remote add origin https://gitee.com/<your-name>/Goh2023_Fig2D_reproduction.git
+git branch -M master
+git push -u origin master
+```
+
+> 首次推送前把 `README.md` 里的作者信息、以及你实际使用的数据路径按需补齐。
+> 数据文件与中间产物已被 `.gitignore` 排除，仓库体积保持在 300 KB 以内。

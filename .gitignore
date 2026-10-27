@@ -28,3 +28,10 @@ data_out/
 *.swp
 .DS_Store
 Thumbs.db
+
+# ---- Python（fig5e 脚本）----
+__pycache__/
+*.pyc
+.cache/
+fig5e/data/*.pdf
+!fig5e/data/README.md
